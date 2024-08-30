@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="navigation">
+        <ul class="nav">
+            <div class="image-create">
+                <li class="profile-image"></li>
+                <li class="name">Created By Mohammad Danish</li>
+            </div>
+            <li><img class="theme" src="themes.png" alt="click"></li>
+            <li class="github"><a class="gitLink" href="#"><img src="GitHub_logo.png" alt="click here"> </a></li>
+        </ul>
+    </div>
+
+    <p style="font-size: 1.5rem; font-weight: 700;">Enter a guess between 0 and 100</p>
+
+    <form action="">
+        <input class="user-input" type="number" placeholder="Enter a number" max="100" min="0" required />
+        <div>
+            <button type="submit">Submit</button>
+            <button class="start-game" disabled>Start Game</button>
+            <p class="message"></p>
+            <p class="hint"></p>
+        </div>
+    </form>
+
+    <script src="js.js"></script>
+</body>
+</html>

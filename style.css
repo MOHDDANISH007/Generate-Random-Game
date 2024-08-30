@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: cyan;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+input {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+.start-game {
+    cursor: not-allowed;
+}
+
+.message,
+.hint {
+    font-size: 1.5rem;
+}
+
+.start-game.restart {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.navigation img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.github {
+    cursor: pointer;
+    z-index: 10;
+    filter: brightness(0);
+}
+
+.theme {
+    cursor: pointer;
+}
+
+.dark-theme {
+    transition: all 0.5s ease-in-out;
+    background-color: #27292d;
+    color: rgb(236, 236, 236);
+}
+
+.profile-image {
+    background-image: url(profile.jpg);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 1.2rem;
+}
+
+.image-create {
+    display: flex;
+    align-items: center;
+}
