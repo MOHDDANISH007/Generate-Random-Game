@@ -6,7 +6,7 @@ const themeButton = document.querySelector(".theme");
 const formTag = document.querySelector("form");
 
 // Generate a random number between 1 and 100
-let RandomNumber = Math.floor(Math.random() * 100) + 1;
+let RandomNumber = Math.round(Math.random() * 100) + 1;
 
 // Initialize an array to store user guesses
 let guesses = [];
